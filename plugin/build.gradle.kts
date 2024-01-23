@@ -6,7 +6,7 @@
  */
 
 group = "io.github.robhogan"
-version = "0.2.0-alpha-3"
+version = "0.2.0-alpha-4"
 
 plugins {
     // Apply the Java Gradle plugin development plugin to add support for developing Gradle plugins
@@ -42,7 +42,7 @@ gradlePlugin {
             displayName = "React Node.js resolver plugin"
             description = "A Gradle Plugin for correctly resolving node_modules paths from your build/settings.gradle"
             tags.set(listOf("react", "node", "nodejs", "node_modules", "resolver", "resolution"))
-            implementationClass = "io.github.robhogan.noderesolver.ReactNodejsResolverGradlePlugin"
+            implementationClass = "io.github.robhogan.noderesolver.NodeJsResolverGradlePlugin"
         }
     }
 }
